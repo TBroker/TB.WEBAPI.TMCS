@@ -1,0 +1,6 @@
+@TB.WEBAPI.TMCS_HostAddress = http://localhost:5172
+
+GET {{TB.WEBAPI.TMCS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
