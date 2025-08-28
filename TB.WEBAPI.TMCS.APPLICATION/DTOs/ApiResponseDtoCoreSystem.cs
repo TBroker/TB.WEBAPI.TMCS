@@ -12,6 +12,7 @@ namespace TB.WEBAPI.TMCS.APPLICATION.DTOs
 
         [JsonPropertyName("TransDateTime")]
         public string? TransDateTime { get; set; }
+    }
 
         [JsonPropertyName("OrderId")]
         public string? OrderId { get; set; }
@@ -21,5 +22,11 @@ namespace TB.WEBAPI.TMCS.APPLICATION.DTOs
 
         [JsonPropertyName("CopAppNo")]
         public string? AppNoCMI { get; set; }
+    }
+
+    public class PaymentResponse : ApiResponseDtoCoreSystem
+    {
+        [JsonPropertyName("OrderId")]
+        public string? OrderId { get; set; }
     }
 }
